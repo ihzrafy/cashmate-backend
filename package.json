@@ -1,0 +1,20 @@
+{
+  "name": "cashmate-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
